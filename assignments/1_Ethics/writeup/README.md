@@ -27,7 +27,7 @@ Since the vehicle is already released to the public, I would first let my boss k
 
 If my company does not escalate the issue and let owners of the vehicle know or postpone the release of the vehicle if it’s not released yet, then I would try again to let my boss or other higher-ups in the company know about the issue and ensure they understand the severity of the problem. If still nothing happens, then I will quit working at the company for my own ethical reasons. I could become a whistleblower, but that usually results in limited legal protection, as non-disclosure agreements are broken, and it will affect my personal life. As I agreed to the non-disclosure agreements when working for the company, I legally cannot disclose information the company does not want me to. I may be ethically responsible for possible damages caused to people by the security problem, but I am not legally responsible.
 
-*In a world with laws and corporations, one’s moral compass will not be able to guide them.*
+*In a world with laws and corporations, one’s moral compass will not be able to guide them. But it can if you leave the corporate world.*
 
 #### Counterargument
 
