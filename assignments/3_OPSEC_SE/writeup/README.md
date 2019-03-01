@@ -11,9 +11,9 @@ Digital acknowledgement: Iniyan Chezhian
 
 ### Part 1 (40 pts)
 
-Given the five bullets, my plan would be to impersonate someone calling from her bank that is conducting a mandatory security check. I am assuming that I can find her bank name through OSINT techniques or other hacking methods. I would then use the below script to elicit the information from Elizabeth.
+Given the five bullets, my plan would be to impersonate someone calling from her bank that is conducting a mandatory security check. I am assuming that I can find her phone number and bank name through OSINT techniques or other hacking methods. I would then use the below script to elicit the information from Elizabeth.
 
-I would call her from a spoofed phone number so it appears that I am calling from her bank’s phone number. I would find this online by visiting her bank’s website.
+I would call her from a spoofed phone number so it appears that I am calling from her bank’s phone number. I would find this number online by visiting her bank’s website.
 
 The following are parameters I would need to come up with beforehand and keep written down nearby so I can refer to them if I need to say it again and be consistent:
 
