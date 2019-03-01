@@ -61,7 +61,7 @@ Your website has several open ports. Specifically, port 22 is open for ssh and p
 
 #### Robots.txt and HTML Source
 
-Your website’s robot.txt exposed a hidden link on the website that may have contained potential login information. Furthermore, the HTML source had a comment which may have contained potential login information. It seems that there was no proofreading done on the person who built the website. In the future, it is a good idea to hire someone to do a vulnerability scan on the website. This should find things such as hidden pages and comments in source code that is publicly viewable and should not be.
+Your website’s robot.txt exposed a hidden link on the website that may have contained potential login information. Furthermore, the HTML source had a comment which may have contained potential login information. It seems that there was no proofreading done on the person who built the website. In the future, it is a good idea to hire someone to do a vulnerability scan on the website. This should find things such as hidden pages and comments in source code that are publicly viewable and should not be.
 
 #### Passwords
 
