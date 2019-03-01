@@ -11,6 +11,8 @@ Digital acknowledgement: Iniyan Chezhian
 
 ### Part 1 (40 pts)
 
+#### Synopsis
+
 Given the five bullets, my plan would be to impersonate someone calling from her bank that is conducting a mandatory security check. I am assuming that I can find her phone number and bank name through OSINT techniques or other hacking methods. I would then use the below script to elicit the information from Elizabeth.
 
 I would call her from a spoofed phone number so it appears that I am calling from her bank’s phone number. I would find this number online by visiting her bank’s website.
@@ -20,6 +22,8 @@ The following are parameters I would need to come up with beforehand and keep wr
 •	*my_fake_name*
 
 •	*her_bank_name*
+
+#### Script
 
 > Hello Elizabeth, this is {*my_fake_name*} calling from {*her_bank_name*}. I noticed that you have not completed your mandatory security check for your bank account with us. Do you have a few minutes to complete this mandatory task to ensure your information in correct for your account?
 
