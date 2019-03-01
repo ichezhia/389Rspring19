@@ -21,31 +21,31 @@ The following are parameters I would need to come up with beforehand and keep wr
 
 •	*her_bank_name*
 
-Hello Elizabeth, this is {*my_fake_name*} calling from {*her_bank_name*}. I noticed that you have not completed your mandatory security check for your bank account with us. Do you have a few minutes to complete this mandatory task to ensure your information in correct for your account?
+> Hello Elizabeth, this is {*my_fake_name*} calling from {*her_bank_name*}. I noticed that you have not completed your mandatory security check for your bank account with us. Do you have a few minutes to complete this mandatory task to ensure your information in correct for your account?
 
-(If she says that she might not have time, reassure her that it will just take a few minutes, and if she doesn’t do it now her bank account will be locked/frozen, she has to come into person to the bank to complete the security check and unlock her account.)
+*(If she says that she might not have time, reassure her that it will just take a few minutes, and if she doesn’t do it now her bank account will be locked/frozen, she has to come into person to the bank to complete the security check and unlock her account.)*
 
-Great, I basically need to confirm that you really are Elizabeth Moffet.
+> Great, I basically need to confirm that you really are Elizabeth Moffet.
 
-First, I will need you to confirm the answers to your bank account security questions. Could you verify with me your …
+> First, I will need you to confirm the answers to your bank account security questions. Could you verify with me your …
 
-… mother’s maiden name?
+> … mother’s maiden name?
 
-… the city you were born in?
+> … the city you were born in?
 
-… the name of your first pet?
+> … the name of your first pet?
 
-(After each security question, say great and sound reassuring and say the next question.)
+*(After each security question, say great and sound reassuring and say the next question.)*
 
-Excellent, now I need you to confirm your account’s ATM pin number.
+> Excellent, now I need you to confirm your account’s ATM pin number.
 
-Great, and finally, to make sure that nobody else is accessing your account, what browser do you primarily use on your computer? This will help us raise a flag if we see any suspicious activity.
+> Great, and finally, to make sure that nobody else is accessing your account, what browser do you primarily use on your computer? This will help us raise a flag if we see any suspicious activity.
 
-Great, so now your account’s mandatory security check is complete. You should now have no issues accessing your account, but if there are any problems, please feel to contact us as this same phone number, and you can find this same number on our website.
+> Great, so now your account’s mandatory security check is complete. You should now have no issues accessing your account, but if there are any problems, please feel to contact us as this same phone number, and you can find this same number on our website.
 
-Is there anything else with your account that I can help you with today?
+> Is there anything else with your account that I can help you with today?
 
-Thank you for choosing {*her_bank_name*} and have a great day!
+> Thank you for choosing {*her_bank_name*} and have a great day!
 
 ### Part 2 (60 pts)
 
