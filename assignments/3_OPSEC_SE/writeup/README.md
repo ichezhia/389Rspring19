@@ -53,4 +53,16 @@ The following are parameters I would need to come up with beforehand and keep wr
 
 ### Part 2 (60 pts)
 
-*Replace this text with your repsonse to our prompt for part 2!*
+The following are three vulnerabilities for 1337Bank’s website.
+
+#### Open Ports
+
+Your website has several open ports. Specifically, port 22 is open for ssh and port 1337 is open for html. This is essentially like leaving a door open on your website. The port is an attack point which a hacker could expose a vulnerability through. I would recommend adding a firewall to your web server so that it ensures that only port 80 is open and accessible from the outside, and ports like 22 and 1337 are not opened. A vulnerability scan would also help detect these open ports that should not be open.
+
+#### Robots.txt and HTML Source
+
+Your website’s robot.txt exposed a hidden link on the website that may have contained potential login information. Furthermore, the HTML source had a comment which may have contained potential login information. It seems that there was no proofreading done on the person who built the website. In the future, it is a good idea to hire someone to do a vulnerability scan on the website. This should find things such as hidden pages and comments in source code that is publicly viewable and should not be.
+
+#### Passwords
+
+Your v0idcache password was too simple and easily crackable. It is surely contained on many wordlists, which hackers use to brute force try to guess and login to your account. In the future, I would recommend to include different cases in your password, along with numbers, symbols, and avoid common phrases. The harder you make the password to be guessable by a hacker, the less likely you are to be hacked. Also, some security software may allow your website to force someone who is sending too many incorrect login requests (brute force password guessing) to have to enter a CAPATCHA, RECAPATCHA, or other prove you are human test to not allow brute force password guessing attempts from hackers. Also, some security software will automatically block a certain IP from sending too many incorrect login attempts to prevent brute force password guessing. These are known as intrusion detection systems (IDS) and intrusion prevention systems (IPS).
