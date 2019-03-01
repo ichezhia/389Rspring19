@@ -51,6 +51,8 @@ The following are parameters I would need to come up with beforehand and keep wr
 
 > Thank you for choosing {*her_bank_name*} and have a great day!
 
+If at any time she gets suspicious, reassure her and mention that you are calling her from the bank phone number and she can check that herself. Try to answer any other questions she asks as if I really was working for her bank doing a security check.
+
 ### Part 2 (60 pts)
 
 The following are three vulnerabilities for 1337Bank’s website.
