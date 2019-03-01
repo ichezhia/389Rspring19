@@ -13,7 +13,7 @@ Digital acknowledgement: Iniyan Chezhian
 
 #### Synopsis
 
-Given the five bullets, my plan would be to impersonate someone calling from her bank that is conducting a mandatory security check. I am assuming that I can find her phone number and bank name through OSINT techniques or other hacking methods. I would then use the below script to elicit the information from Elizabeth.
+Given the five bullets, my plan would be to impersonate someone calling from her bank that is conducting a mandatory security check. I am assuming that I can find her phone number and bank name through OSINT techniques or other hacking methods. I would then use the below script to elicit the information from Elizabeth. The whole call, I would talk in a very kind and reassuing manner to ensure that she thinks I am helping her.
 
 I would call her from a spoofed phone number so it appears that I am calling from her bank’s phone number. I would find this number online by visiting her bank’s website.
 
@@ -43,7 +43,7 @@ The following are parameters I would need to come up with beforehand and keep wr
 
 > Excellent, now I need you to confirm your account’s ATM pin number.
 
-> Great, and finally, to make sure that nobody else is accessing your account, what browser do you primarily use on your computer? This will help us raise a flag if we see any suspicious activity.
+> Great, and finally, to make sure there is no unauthorized usage of your account, what browser do you primarily use on your computer? This will help us raise a flag if we see any suspicious activity.
 
 > Great, so now your account’s mandatory security check is complete. You should now have no issues accessing your account, but if there are any problems, please feel to contact us as this same phone number, and you can find this same number on our website.
 
