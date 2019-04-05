@@ -28,7 +28,7 @@ I just tried each one of these in the browser.
 
 4. There are FTP from the hacker IP all seem to be on port 20.
 
-5. I see that the FTP on port 20 is fora file called find_me.jpeg.
+5. I see that the FTP on port 20 is for a file called find_me.jpeg.
 
 I did File, Export, HTTP in Wireshark. Then this gave me a file that when opened in Firefox seems to be umdctf.io website.
 
@@ -42,11 +42,16 @@ b) According to GPS Position,
 34° 57' 29.14"S, 54° 56' 16.28"W
 This is Rambla General Jose Artigas, 20100 Punta del Este, Departamento de Maldonado, Uruguay; according to Google Maps.
 
-c) When was this photo taken? Provide a timestamp in your answer.
+c) 2018:12:23 17:16:24
 
-d) What kind of camera took this photo?
+d) Apple iPhone 8
 
 e) 4.5m below sea level
+
+6. Besides find_me.jpb, the only other file for FTP packets is greetz.fpff
+
+7. It seems that port 20 should be blocked, this is where they stole a file from. When someone like the hackers makes many hits on the server, that's a red flag. Perhaps a Website Security Service could provide them with assistnace in blocking hackers when noticed.
+
 
 
 ### Part 2 (55 Pts)
