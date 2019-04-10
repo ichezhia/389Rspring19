@@ -85,6 +85,6 @@ The code is run with the following command:
 #### Question Answers
 
 i. According to the timestamp I formatted, `2019-3-27 4:15:05`. This is
->March 3 2019 at 4:15:05.
+>March 3 2019 at 4:15:05
 
 ii. According to the author, it was `fl1nch`.
