@@ -13,22 +13,22 @@ Digital acknowledgement: Iniyan Chezhian
 
 #### How I started
 
-I started by opening netlog.pcap in Wireshark. The hint was to look at TCP.
+I started by opening `netlog.pcap` in Wireshark. The hint was to look at TCP. I misinterpreted the hint so only looked at TCP stuff in the beginning.
 
 The IP's on source and destination used for TCP are:
-185.199.110.153 (unpublished GitHub Pages site)
-142.93.136.81 (http://1337bank.money/)
-159.203.113.181 (doesn't load - times out)
+>185.199.110.153 (unpublished GitHub Pages site)
+>142.93.136.81 (http://1337bank.money/)
+>159.203.113.181 (doesn't load - times out)
 
 I just tried each one of these in the browser.
 
 #### Question 1-5 Answers
 
-1. The hacked site is 1337bank.money, so this is 142.93.136.81.
+1. The hacked site is `1337bank.money`, so this is `142.93.136.81`.
 
 2. We can assume they were using hacking tools. This might be something like a port scanner. Then they might have been trying to do some malicious FTP stuff, since there is a lot of that.
 
-3. The hacker seems to be 159.203.113.181. There is a lot of stuff between that and the 1337bank address. Doing a whois on this gives me that they are DigitalOcean, LLC at 101 Ave of the Americas, 10th Floor, New York, NY 10013 US. They are connecting from New York.
+3. The hacker seems to be `159.203.113.181`. There is a lot of stuff between that and `1337bank.money` address. Doing a `whois` on this gives me that they are >DigitalOcean, LLC at 101 Ave of the Americas, 10th Floor, New York, NY 10013 US. They are connecting from New York.
 
 4. There are FTP from the hacker IP all seem to be on port 20.
 
@@ -47,10 +47,12 @@ Then I tried to do Follow TCP Stream. First I tried the default ASCII file to sa
 a) JPEG
 
 b) According to GPS Position, 
-34° 57' 29.14"S, 54° 56' 16.28"W
-This is Rambla General Jose Artigas, 20100 Punta del Este, Departamento de Maldonado, Uruguay; according to Google Maps.
+`34° 57' 29.14"S, 54° 56' 16.28"W`
+This is >Rambla General Jose Artigas, 20100 Punta del Este, Departamento de Maldonado, Uruguay
 
-c) 2018:12:23 17:16:24
+according to Google Maps.
+
+c) `2018:12:23 17:16:24`
 
 d) Apple iPhone 8
 
@@ -58,7 +60,7 @@ e) 4.5m below sea level
 
 #### Question 6-7 Answers
 
-6. Besides find_me.jpb, the only other file for FTP packets is greetz.fpff
+6. Besides `find_me.jpg`, the only other file for FTP packets is `greetz.fpff`.
 
 7. It seems that port 20 should be blocked, this is where they stole a file from. When someone like the hackers makes many hits on the server, that's a red flag. Perhaps a Website Security Service could provide them with assistnace in blocking hackers when noticed.
 
@@ -75,10 +77,10 @@ I started with the given code. I was able to add author, which is just a string.
 #### How I used the parser
 
 The code is run with the following command:
-python stub.py greetz.fpff
+    python stub.py greetz.fpff
 
 #### Question Answers
 
-i. According to the timestamp I formatted, 2019-3-27 4:15:05. This is March 3 2019 at 4:15:05.
+i. According to the timestamp I formatted, `2019-3-27 4:15:05`. This is >March 3 2019 at 4:15:05.
 
-ii. According to the author, it was fl1nch.
+ii. According to the author, it was `fl1nch`.
