@@ -48,16 +48,18 @@ d) Apple iPhone 8
 
 e) 4.5m below sea level
 
-
 6. Besides find_me.jpb, the only other file for FTP packets is greetz.fpff
 
 7. It seems that port 20 should be blocked, this is where they stole a file from. When someone like the hackers makes many hits on the server, that's a red flag. Perhaps a Website Security Service could provide them with assistnace in blocking hackers when noticed.
 
-
-
 ### Part 2 (55 Pts)
 
+I got the greetz file from Wireshark similar to how I got the find_me.jpeg file before.
+
 I started with the given code. I was able to add author, which is just a string. Adding the timestamp was added by converting to int, then using datetime to format the output to a readable format instead of Unix time.
+
+The code is run with the following command:
+python stub.py greetz.fpff
 
 i. According to the timestamp I formatted, 2019-3-27 4:15:05. This is March 3 2019 at 4:15:05.
 
