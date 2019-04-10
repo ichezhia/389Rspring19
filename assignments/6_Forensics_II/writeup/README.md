@@ -17,7 +17,9 @@ I started by opening `netlog.pcap` in Wireshark. The hint was to look at TCP. I 
 
 The IP's on source and destination used for TCP are:
 >185.199.110.153 (unpublished GitHub Pages site)
+>
 >142.93.136.81 (http://1337bank.money/)
+>
 >159.203.113.181 (doesn't load - times out)
 
 I just tried each one of these in the browser.
@@ -47,10 +49,11 @@ Then I tried to do Follow TCP Stream. First I tried the default ASCII file to sa
 a) JPEG
 
 b) According to GPS Position, 
-`34° 57' 29.14"S, 54° 56' 16.28"W`
-This is >Rambla General Jose Artigas, 20100 Punta del Este, Departamento de Maldonado, Uruguay
+`34° 57' 29.14"S, 54° 56' 16.28"W`.
+This is
+>Rambla General Jose Artigas, 20100 Punta del Este, Departamento de Maldonado, Uruguay
 
-according to Google Maps.
+_according to Google Maps_
 
 c) `2018:12:23 17:16:24`
 
