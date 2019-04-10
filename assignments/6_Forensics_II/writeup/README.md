@@ -88,3 +88,10 @@ i. According to the timestamp I formatted, `2019-3-27 4:15:05`. This is
 >March 3 2019 at 4:15:05
 
 ii. According to the author, it was `fl1nch`.
+
+### Notes
+
+Folder `6_Forensics_II` contains the files:
+* `find_me.jpg`
+* `greetz.fpff`
+* `stub.py`
