@@ -8,15 +8,22 @@
  * Digital acknowledgement: Iniyan Chezhian
  */
 
-int foo1 = 485163226
-int foo2 = 4277009102
+#include <stdio.h>
 
-print a = %d\n, foo2
-print b = %d\n, foo1
+ int main()
+ {
+   int foo1 = 485163226;
+   int foo2 = 4277009102;
 
-foo2^=
-foo1^=
-foo2^=
+   printf("a = %d\n", foo2);
+   printf("b = %d\n", foo1);
 
-print foo2
-print foo1
+   foo2^=foo1;
+   foo1^=foo2;
+   foo2^=foo1;
+
+   printf("a = %d\n", foo2);
+   printf("b = %d\n", foo1);
+
+   return 0;
+}
