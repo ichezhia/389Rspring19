@@ -28,7 +28,7 @@ FOUND! character: z password: matrix is hash: 247ead31de7efd5c8fd859630ecb959c4e
 ```
 (It gives the character, password, and what the hash was.)
 
-### Part 1 Thought Process
+#### Thought Process
 Coding `crack.py` wasn't too bad. I was able to figure out how to read files in python line by line. I initially did: 
 ```
     hashes = [line.rstrip('\n') for line in open('hashes.txt')]
