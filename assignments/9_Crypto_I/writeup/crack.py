@@ -4,16 +4,20 @@ import hashlib
 import string
 
 def crack():
-    hashes = # open and read hashes.txt
-    passwords = # open and read passwords.txt
+
+    hashes = [line.rstrip() for line in open('hashes.txt','r')]
+    passwords = [line.rstrip() for line in open('passwords.txt','r')]
     characters = string.ascii_lowercase
 
     for c in characters:
         for p in passwords:
-            # crack hashes
+            brute_string = c+p
+            hash = hashlib.sha256(brute_string).hexdigest()
 
-            # print hashes as 'input:hash'
-            # i.e.  yeet:909104cdb5b06af2606ed4a197b07d09d5ef9a4aad97780c2fe48053bce2be52
+#check all hashes
+            if hash in hashes:
+                    print("FOUND! character: " + c + " password: " + p + " is hash: " + hash)
+
 
 if __name__ == "__main__":
     crack()
