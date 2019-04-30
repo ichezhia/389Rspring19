@@ -12,7 +12,7 @@ Digital acknowledgement: Iniyan Chezhian
 
 ### Part 1 (70 Pts)
 
-Here is what my crack.py was able to find:
+Here is what my `crack.py` was able to find:
 
 ```
 FOUND! character: a password: freedom is hash: 52e5a82e5763533be232e82482d3e6f44118f88b1b6bd3224134341979fe43cc
