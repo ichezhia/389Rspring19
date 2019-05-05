@@ -21,7 +21,7 @@ Then I did:
 
 This gave me a lot of text in the message, I was told to mention this flag: `CMSC389R-{m3ss@g3_!n_A_b0ttl3}`
 
-Following the instructions from the previous file, I created a signature.txt file and ran this command:
+Following the instructions from the previous file, I created a `signature.txt` file (in the above directory) and ran this command:
 
 `gpg --clearsign signature.txt`
 
@@ -32,6 +32,6 @@ I ran the given 2 commands, which made a new image file each. Then `bash fix.sh`
 
 Both images seem to be grainier greyed out versions of the original image. cbc is more grainier, looking like a TV screen that is when you are on a channel that does not exist. ecb is somewhat recognizable in terms of the original image.
 
-Judging from the image, ecb is less secure, and cbc is more secure. The cbc image completely conceals the original image, while with ecb I can still make out the original. From online sources, I see that ECB is a simpler raw cipher and each block is encrypted independently; while CBC is cipher block chaining where each block is chained together and each encrypted block is XOR'd with the last encrypted block.
+Judging from the image, ECB is less secure, and CBC is more secure. The CBC image completely conceals the original image, while with ECB I can still make out the original. From online sources, I see that ECB is a simpler raw cipher and each block is encrypted independently; while CBC is cipher block chaining where each block is chained together and each encrypted block is XOR'd with the last encrypted block.
 
 An analogy that I can think of is that ECB is like a hash, while CBC reminds me of a blockchain.
