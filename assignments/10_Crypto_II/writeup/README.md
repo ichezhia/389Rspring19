@@ -30,8 +30,8 @@ This created the `signature.txt.asc` file. This file is included in this directo
 ### Part 2 (30 Pts)
 I ran the given 2 commands, which made a new image file each. Then `bash fix.sh` ran the given script. Both files made, along with the original are included in this directory.
 
-Both images seem to be grainier greyed out versions of the original image. cbc is more grainier, looking like a TV screen that is when you are on a channel that does not exist. ecb is somewhat recognizable in terms of the original image.
+Both images seem to be grainier greyed out versions of the original image. CBC is grainier, looking like a TV screen that is when you are on a channel that does not exist. ECB is somewhat recognizable in terms of the original image.
 
-Judging from the image, ECB is less secure, and CBC is more secure. The CBC image completely conceals the original image, while with ECB I can still make out the original. From online sources, I see that ECB is a simpler raw cipher and each block is encrypted independently; while CBC is cipher block chaining where each block is chained together and each encrypted block is XOR'd with the last encrypted block.
+Judging from the image, ECB is less secure, and CBC is more secure. The CBC image completely conceals the original image, while with ECB I can still make out the original. From online sources, I see that ECB is a simpler raw cipher and each block is encrypted independently; while CBC is cipher block chaining where each block is chained together, and each encrypted block is XOR'd with the last encrypted block.
 
 An analogy that I can think of is that ECB is like a hash, while CBC reminds me of a blockchain.
