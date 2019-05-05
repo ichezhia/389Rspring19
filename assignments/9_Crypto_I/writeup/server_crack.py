@@ -24,8 +24,8 @@ def server_crack():
     hashes = [line.rstrip() for line in open('hashes.txt','r')]
     passwords = [line.rstrip() for line in open('passwords.txt','r')]
     characters = string.ascii_lowercase
-    server_ip = '134.209.128.58 1337'
-    server_port = 00000
+    server_ip = '134.209.128.58'
+    server_port = 1337
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((server_ip, server_port))
