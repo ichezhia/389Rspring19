@@ -12,7 +12,7 @@ Digital acknowledgement: Iniyan Chezhian
 
 ### Part 1 (70 Pts)
 I started by running the following:
-`gpg --decrypt message.txt.gpg`
+`gpg --import key.asc`
 
 This gave me some text about the imported key, which is: `2CDD23F9C7D32E64`
 
