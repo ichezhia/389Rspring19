@@ -28,7 +28,7 @@ Following the instructions from the previous file, I created a `signature.txt` f
 This created the `signature.txt.asc` file. This file is included in this directory.
 
 ### Part 2 (30 Pts)
-I ran the given 2 commands, which made a new image file each. Then `bash fix.sh` ran the given script. Both files made, along with the original are included in this directory.
+I ran the given 2 commands, which made a new image file each. Then I did `bash fix.sh` to run the given script. Both files made, along with the original, are included in this directory.
 
 Both images seem to be grainier greyed out versions of the original image. CBC is grainier, looking like a TV screen that is when you are on a channel that does not exist. ECB is somewhat recognizable in terms of the original image.
 
