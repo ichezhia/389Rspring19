@@ -14,22 +14,14 @@ Digital acknowledgement: Iniyan Chezhian
 I started by running the following:
 `gpg --decrypt message.txt.gpg`
 
-This gave:
-`
-gpg: key 2CDD23F9C7D32E64: "CMSC389R <fake@email.com>" not changed
-gpg: key 2CDD23F9C7D32E64: secret key imported
-gpg: Total number processed: 1
-gpg:              unchanged: 1
-gpg:       secret keys read: 1
-gpg:  secret keys unchanged: 1
-`
+This gave me some text about the imported key, which is: `2CDD23F9C7D32E64`
 
 Then I did:
 `gpg --decrypt message.txt.gpg`
 
-This gave me a lot of text, and this flag: `CMSC389R-{m3ss@g3_!n_A_b0ttl3}`
+This gave me a lot of text in the message, I was told to mention this flag: `CMSC389R-{m3ss@g3_!n_A_b0ttl3}`
 
-Folowing the instructions from the previous file, I created a signature.txt file and ran this command:
+Following the instructions from the previous file, I created a signature.txt file and ran this command:
 
 `gpg --clearsign signature.txt`
 
